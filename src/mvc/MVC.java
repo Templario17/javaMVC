@@ -5,6 +5,12 @@
  */
 package mvc;
 
+import controller.ControlCliente;
+import controller.ControlMenu;
+import view.MenuVista;
+
+import view.clienteVista;
+
 /**
  *
  * @author daniel peña 
@@ -16,6 +22,9 @@ public class MVC {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        //ControlCliente cienteController = new ControlCliente(new clienteVista());
+        ControlMenu menuapp = new ControlMenu(new MenuVista());
     }
     
 }
